@@ -1,8 +1,6 @@
 import numpy as nu
 import streamlit as st
-import matplotlib.pyplot as plt
-import threading
-import random
+
 
 st.title("WELCOME TO THE BRAINROT QUIZ GAME")
 st.write("//RULES//")
