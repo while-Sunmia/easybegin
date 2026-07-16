@@ -10,5 +10,5 @@ if st.button("Show me the frequency"):
     for i in pas.split():
         wo = i.lower().strip(".,/?!'-")
         if(wo==word):
-        count = count + 1
+           count = count + 1
     st.subheader(f"The word '{word}' has been used {count} times")
