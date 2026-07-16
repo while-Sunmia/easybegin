@@ -12,8 +12,3 @@ for i in pas.split():
         count = count + 1
 
 st.subheader(f"The word '{word}' has been used {count} times")
-
-<html>
-<body background="orange">
-</body>
-</html>
