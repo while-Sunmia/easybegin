@@ -11,4 +11,9 @@ for i in pas.split():
     if(wo==word):
         count = count + 1
 
-st.write(f"The word '{word}' has been used {count} times")
+st.subheader(f"The word '{word}' has been used {count} times")
+
+<html>
+<body background="orange">
+</body>
+</html>
