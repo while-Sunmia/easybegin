@@ -11,4 +11,4 @@ for i in pas.split():
     if(wo==word):
         count = count + 1
 
-print(count)
+st.write(f"The word '{word}' has been used {count} times")
