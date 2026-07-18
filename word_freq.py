@@ -13,9 +13,4 @@ if st.button("Show me the frequency:"):
      count = count + 1
   st.subheader(f"The word '{word}' has been used {count} times")
 
-<html>
-<style>
-h1{color:white,background-color:black}
-body{background-color:purple}
-</style>
-</html>
+st.markdown("""<body style='background color: white'></body>""")
