@@ -20,8 +20,10 @@ st.markdown(
         background-color: orange;
         }
       .stTextInput{
-      background-color: black
+      color: black
     }
+    .stTitle{color: black}
+    .stWrite{color: black}
     </style>
     """,
     unsafe_allow_html=True
