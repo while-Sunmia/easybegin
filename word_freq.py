@@ -22,8 +22,8 @@ st.markdown(
       .stTextInput{
       color: black
     }
-    .stTitle{color: black}
-    .stWrite{color: black}
+    h1{color: black}
+    p{color: black}
     </style>
     """,
     unsafe_allow_html=True
