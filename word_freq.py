@@ -20,9 +20,9 @@ st.markdown(
     .stApp{
         background-color: orange;
         }
-      .stTextInput{background-color: black;color: orange}
+      .stTextInput{background-color: white;color: black}
     p{color: black}
-    .stButton{background-color: white;color: orange}
+    .stButton{color: orange}
     </style>
     """,
     unsafe_allow_html=True
