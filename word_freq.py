@@ -16,7 +16,7 @@ if st.button("Show me the frequency:"):
 st.markdown(
     """
     <style>
-    body {
+    .stApp{
         background-color: white;
     }
     </style>
