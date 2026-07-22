@@ -3,18 +3,6 @@ import streamlit as st
 import random
 import string
 
-st.title("PASSWORD GENERATOR")
-st.text("This is an app that generates a strong password for your internet purposes:")
-char = []
-lim = st.text_input("What is the length of ur alphanumeric password ?")
-limit = int(lim)
-if st.button("Generate!"):
-  for i in range(limit):
-    gen = random.choice(string.ascii_letters + string.digits)
-    char.append(gen)
-
-  word = "".join(char)
-  st.subheader(f"Your generated password is {word}")
 st.markdown(
     """
     <style>
@@ -32,3 +20,17 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+st.title("PASSWORD GENERATOR")
+st.text("This is an app that generates a strong password for your internet purposes:")
+char = []
+lim = st.text_input("What is the length of ur alphanumeric password ?")
+limit = int(lim)
+if st.button("Generate!"):
+  for i in range(limit):
+    gen = random.choice(string.ascii_letters + string.digits)
+    char.append(gen)
+
+  word = "".join(char)
+  st.subheader(f"Your generated password is {word}")
+
