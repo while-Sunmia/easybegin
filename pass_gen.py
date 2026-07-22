@@ -6,7 +6,8 @@ import string
 st.title("PASSWORD GENERATOR")
 st.text("This is an app that generates a strong password for your internet purposes:")
 char = []
-limit = int(st.text_input("What is the length of ur alphanumeric password ?"))
+lim = st.text_input("What is the length of ur alphanumeric password ?")
+limit = int(lim)
 if st.button("Generate!"):
   for i in range(limit):
     gen = random.choice(string.ascii_letters + string.digits)
@@ -14,3 +15,20 @@ if st.button("Generate!"):
 
   word = "".join(char)
   st.subheader(f"Your generated password is {word}")
+st.markdown(
+    """
+    <style>
+    h1 {color: black; text-align: center; font-size: 100px;}
+    h3 {color: black; text-align: center;}
+    .stApp {
+        background-color: pink;
+    }
+    p {color: black; font-size: 18px;}
+    .stButton>button {
+        background-color: orange;
+        color: black;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
