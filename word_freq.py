@@ -2,7 +2,7 @@ import string
 import streamlit as st
 st.title("Word frequency App")
 st.write("This is an app that shows you many times a word has appeared and also highlights the specified word in the paragraph")
-pas = st.text_input("Enter your paragraph/text/article: ")
+pas = st.text_area("Enter your paragraph/text/article: ")
 word = st.text_input("Enter the word: ")
 
 count = 0
@@ -21,7 +21,6 @@ st.markdown(
     .stApp{
         background-color: orange;
         }
-    .stTextInput{color: black}
     p{color: black}
     .stButton{color: orange}
     </style>
