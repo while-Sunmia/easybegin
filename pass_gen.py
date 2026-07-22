@@ -23,9 +23,9 @@ st.markdown(
     .stApp{
         background-color: pink;
     }
-    p{color: black; font-size: 18px;}
+    p{color: black;font-size: 18px;}
     .stButton>button{
-        background-color: orange;
+        background-color: red;
         color: black;
     }
     </style>
