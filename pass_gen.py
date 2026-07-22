@@ -18,13 +18,13 @@ if st.button("Generate!"):
 st.markdown(
     """
     <style>
-    h1 {color: black; text-align: center; font-size: 100px;}
-    h3 {color: black; text-align: center;}
-    .stApp {
+    h1{color: black; text-align: center; font-size: 100px;}
+    h3{color: black; text-align: center;}
+    .stApp{
         background-color: pink;
     }
-    p {color: black; font-size: 18px;}
-    .stButton>button {
+    p{color: black; font-size: 18px;}
+    .stButton>button{
         background-color: orange;
         color: black;
     }
