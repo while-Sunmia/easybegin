@@ -18,7 +18,7 @@ if st.button("Generate!"):
 st.markdown(
     """
     <style>
-    h1{color: black; text-align: center; font-size: 100px;}
+    h1{color: black; text-align: center; font-size: 100px;font-style: italic;font-family: Aerial}
     h3{color: black; text-align: center;}
     .stApp{
         background-color: pink;
