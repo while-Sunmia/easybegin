@@ -16,11 +16,12 @@ if st.button("Show me the frequency:"):
 st.markdown(
     """
     <style>
-    h1{color: black;text-align: center;font-size:50px}
+    h1{color: black;text-align: center;font-size:100px}
+    h3{color: black;text-align: center}
     .stApp{
         background-color: orange;
         }
-      .stTextInput{background-color: white;color: black}
+    .stTextInput{color: black}
     p{color: black}
     .stButton{color: orange}
     </style>
