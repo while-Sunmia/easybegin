@@ -22,7 +22,7 @@ st.markdown(
 )
 
 st.title("PASSWORD GENERATOR")
-st.text("This is an app that generates a strong password for your internet purposes:")
+st.write("This is an app that generates a strong password for your internet purposes:")
 char = []
 lim = st.text_input("What is the length of ur alphanumeric password ?")
 limit = int(lim)
